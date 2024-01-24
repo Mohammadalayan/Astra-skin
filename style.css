@@ -1,5 +1,5 @@
 * {
-    font-family: c;
+    font-family:sans-serif ;
 }
 
 .home-image {
@@ -159,9 +159,10 @@ margin: auto;
 }
 @media (min-width: 250px) and (max-width: 767px) {
     .logo{
-        height: 80px;
+        height: 60px;
         margin-left: 360px;
-        width: 170px;
+        width: 160px;
+        top:50px
     }
     .flex{
         margin-left:-15px;
@@ -172,13 +173,15 @@ margin: auto;
     }
     .button1{
         top:-90px;
+        font-size: 13.5px;
         margin-left:-20px;
     }li{
 
 font-size: 24px;
 }
 .home-image{
-    width: 94.5%;
+    width: 100%;
+ margin-left: 0px;
     height: 725px;
 }
     
