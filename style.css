@@ -152,10 +152,21 @@ margin: auto;
         margin-left: 220px;
         width: 180px;
     }
+    li{
+        font-size: 27px;
+    }
     .flex{
         margin-left: 72px;
     }
+    h1{
+        font-size: 55px;
+    }
     
+    .button1{
+        font-size: 14.5px;
+        height: 45px;
+        width: 170px;
+    }
 }
 @media (min-width: 250px) and (max-width: 767px) {
     .logo{
@@ -189,3 +200,33 @@ font-size: 22px;
 }
 
 
+@media  (max-width: 368px) {
+        .logo{
+            height: 60px;
+            width: 160px;
+            top:50px
+        }
+        .flex{
+            margin-left:10px;
+        }
+        h1{
+            top: 0px;
+            font-size: 40px;
+            text-align: center;
+        }
+        .button1{
+            top:0px;
+            font-size: 13.5px;
+            margin-left:20px;
+            text-align: center;
+        }li{
+    
+    font-size: 28px;
+    }
+    .home-image{
+        width: 105%;
+     margin-left: -9px;
+        height: 625px;
+        margin-top: -33px;
+    }
+}
