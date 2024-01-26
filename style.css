@@ -1,5 +1,5 @@
 * {
-    font-family:sans-serif ;
+    font-family: sans-serif;
 }
 
 .home-image {
@@ -64,7 +64,7 @@ a {
 h1 {
     position: relative;
     color: #FBFCFF;
-    top:-190px;
+    top: -190px;
     font-size: 70px;
     text-align: center;
 }
@@ -83,48 +83,42 @@ h1 {
 }
 
 @media (max-width: 768px) {
-    
-    
     nav {
         text-align: center;
-        top:170px;
+        top: 170px;
         right: 5%;
     }
-    .home-image{
+    .home-image {
         height: 950px;
-        width: 99%;
+        width: 100%;
     }
     ul {
-        margin-left: 0; /* Adjust margin for smaller screens */
-        top: 0; /* Adjust top position for smaller screens */
-    justify-content: center;
-
-margin: auto;
-}
+        margin-left: 0;
+        top: 0;
+        justify-content: center;
+        margin: auto;
+    }
 
     li {
-        padding-left: 20px; /* Adjust padding for smaller screens */
-        font-size: 27px; /* Adjust font size for smaller screens */
-
-    
+        padding-left: 20px;
+        font-size: 27px;
     }
 
     h1 {
-        font-size: 37px; /* Adjust font size for smaller screens */
+        font-size: 37px;
         margin-top: 10px;
-        left: 1%;
+        text-align: center;
     }
 
     .button1 {
-        width: 120px; /* Adjust button width for smaller screens */
-        height: 40px; /* Adjust button height for smaller screens */
-        font-size: 15px; /* Adjust font size for smaller screens */
-        left: 40%; /* Adjust left position for smaller screens */
-        top: 560px; /* Adjust top position for smaller screens */
-
+        width: 120px;
+        height: 40px;
+        font-size: 15px;
+        left: 40%;
+        top: 560px;
     }
-    .logo{
-      
+
+    .logo {
         margin-left: 81%;
         height: 80px;
         border-radius: 30px;
@@ -135,98 +129,81 @@ margin: auto;
         display: inline-flex;
         margin-top: 20px;
         position: absolute;
-        }
+    }
 }
+
 @media (min-width: 768px) and (max-width: 1260px) {
-.logo{
-    height: 80px;
-    margin-left: 260px;
+    .logo {
+        height: 80px;
+        margin-left: 260px;
+    }
+
+    .flex {
+        margin-left: 72px;
+    }
 }
-.flex{
-    margin-left: 72px;
-}
-}
+
 @media (min-width: 769px) and (max-width: 1137px) {
-    .logo{
+    .logo {
         height: 80px;
         margin-left: 220px;
         width: 180px;
     }
-    li{
+
+    li {
         font-size: 27px;
     }
-    .flex{
+
+    .flex {
         margin-left: 72px;
     }
-    h1{
+
+    h1 {
         font-size: 55px;
     }
-    
-    .button1{
+
+    .button1 {
         font-size: 14.5px;
         height: 45px;
         width: 170px;
     }
-}
-@media (min-width: 250px) and (max-width: 767px) {
-    .logo{
-        height: 60px;
-        margin-left: 360px;
-        width: 160px;
-        top:50px
-    }
-    .flex{
-        margin-left:-15px;
-    }
-    h1{
-        top: 0px;
-        font-size: 30px;
-    }
-    .button1{
-        top:0px;
-        font-size: 13.5px;
-        margin-left:-20px;
-    }li{
-
-font-size: 22px;
-}
-.home-image{
-    width: 105%;
- margin-left: -9px;
-    height: 625px;
-    margin-top: -33px;
-}
-    
-}
-
-
-@media  (max-width: 368px) {
-        .logo{
-            height: 60px;
-            width: 160px;
-            top:50px
-        }
-        .flex{
-            margin-left:10px;
-        }
-        h1{
-            top: 0px;
-            font-size: 40px;
-            text-align: center;
-        }
-        .button1{
-            top:0px;
-            font-size: 13.5px;
-            margin-left:20px;
-            text-align: center;
-        }li{
-    
-    font-size: 28px;
-    }
     .home-image{
-        width: 105%;
-     margin-left: -9px;
-        height: 625px;
+        height: 650px;
+    }
+}
+
+@media (min-width: 250px) and (max-width: 767px) {
+    .logo {
+        height: 60px;
+        width: 160px;
+        top:50px;
+        left: -46%;
+    }
+
+    h1 {
+        top: -20px;
+        font-size: 31px;
+        text-align: center;
+    }
+
+    .button1 {
+        top: -20px;
+        font-size: 13.5px;
+        margin-left: -21px;
+    }
+
+    li {
+        font-size: 22px;
+    }
+
+    .home-image {
+        width: 99.5%;
+        margin-left: 0px;
+        height: 710px;
         margin-top: -33px;
+    }
+
+    .flex {
+        margin-left: -30px;
     }
 }
