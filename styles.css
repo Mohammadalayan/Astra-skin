@@ -1,0 +1,163 @@
+* {
+    font-family: sans-serif;
+}
+.logo {
+    height: 85px;
+    border-radius: 30px;
+    padding: 0;
+    width: 265px;
+    display: inline-flex;
+    margin-left: 80px;
+    margin-top: 40px;
+
+}
+
+
+.png1{
+background-color: #FBFCFF;
+    width: 465px;
+    height: 480px;
+}
+.span{
+    color: #E1A93C;
+}
+.png{
+    justify-content: right;
+    display: flex;
+    margin-top: 0px;
+    margin-right: 70px;
+}
+.h2{
+margin-left:350px ;
+font-size: 35px;
+color: #E1A93C;
+}
+.hr{
+    margin-right: 56px;
+}
+.headline2{
+    font-size: 35px;
+    color: #080708;
+margin-top: 100px;
+display: flex;
+justify-content: center;
+}
+
+.features1{
+    display: flex;
+justify-content: center;
+
+}
+.features2{
+    display: flex;
+}
+nav {
+   
+    display: flex;
+    margin-bottom: -100px;
+
+    justify-content: center;
+}
+
+ul {
+    display: inline-flex;
+    flex-flow: row wrap;
+    margin-left: -120px;
+    list-style-type: none;
+    margin-top: -90px;
+}
+
+
+
+
+li{
+    color: #080708;
+font-size: 20px;
+margin: 40px;
+
+}
+.li2{
+    padding-left: 70px;
+    list-style-type: none;
+    color: #080708;
+    font-size: 26px;
+
+}
+.li2:hover{
+    padding-left: 70px;
+    list-style-type: none;
+    color:#E1A93C;
+    transition: 0.1s;
+    font-size: 26px;
+}
+ol{
+    list-style-type:lower-roman;
+}
+.ol1{
+display: flex;
+}
+.ol2{
+    display: flex;
+
+}
+.ol3{
+    display: flex;
+
+}
+a {
+    color: #080708;
+    text-decoration: none;
+}.footer {
+    background-color: #080708;
+    height: 100%;
+    border-radius:14px ;
+    margin:20px  20px ;
+  }
+  
+  .footer-container {
+    display: grid;
+    padding: 2rem 0;
+    max-width: 65rem;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 200px;
+    width: 100%;
+    grid-template-areas: "icon sitemap contact social";
+    grid-column-gap: 1.5rem;
+  }
+  
+  .logo2 {
+    background-color: #080708;
+width: 250px;
+height: 110px;
+border-radius: 26px;
+margin-top: 28px;
+margin-left: -100px;
+}
+  
+  .footer-title {
+    color: #E1A93C;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    margin: 12 0 1rem 0;
+  }
+  
+ 
+  
+  .footer-item {
+    margin: 0.9rem 0;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    font-size: 20px;
+    
+  }
+  .footer-item:hover{
+    margin: 0.9rem 0;
+    text-decoration: none;
+    color: #E1A93C;
+    display: flex;
+    font-size: 20px;
+    
+  }

@@ -12,7 +12,7 @@
 
 .logo {
     margin-left: 310px;
-    height: 70px;
+    height: 90px;
     border-radius: 30px;
     padding: 0;
     width: 295px;
@@ -54,10 +54,30 @@ li {
     color: #FBFCFF;
     font-size: 30px;
 }
-
-a {
-    color: black;
+.button1:hover{
+    width: 210px;
+    height: 55px;
+    background-color: #E1A93C;
+    color: #FBFCFF;
     font-size: 20px;
+    border-radius: 10px;
+    border: #E1A93C ;
+    transition: 0.1s;
+    position: relative;
+    left: 41.5%;
+    top: -210px;
+}
+
+li:hover {
+    padding-left: 70px;
+    list-style-type: none;
+    color: #E1A93C;
+    transition: 0.1s;
+    font-size: 30.6px;
+}
+a {
+    color: #FBFCFF;
+
     text-decoration: none;
 }
 
