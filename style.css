@@ -51,7 +51,7 @@ ul {
 li {
     padding-left: 70px;
     list-style-type: none;
-    color: #FBFCFF;
+    color: #080708;
     font-size: 30px;
 }
 .button1:hover{
@@ -83,7 +83,7 @@ a {
 
 h1 {
     position: relative;
-    color: #FBFCFF;
+    color: #080708;
     top: -190px;
     font-size: 70px;
     text-align: center;
@@ -211,7 +211,13 @@ h1 {
         font-size: 13.5px;
         margin-left: -21px;
     }
-
+.button1:hover{
+    top: -20px;
+    font-size: 13.5px;
+    margin-left: -51px;
+    width: 170px;
+    height:45px ;
+}
     li {
         font-size: 22px;
     }
