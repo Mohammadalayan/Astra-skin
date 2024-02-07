@@ -161,7 +161,7 @@ a {
     font-size: 20px;
 }
 
-@media (min-width: 250px) and (max-width: 767px) {
+@media (min-width: 200px) and (max-width: 797px) {
     .headline2 {
         font-size: 17px;
         color: #080708;
@@ -172,8 +172,9 @@ a {
     .logo {
         width: 50%;
         height: 80px;
+        margin: auto;
 margin-top: 30px;
-margin-left: 96px;
+margin-left: 102px;
     }
 
 
@@ -201,7 +202,7 @@ margin-right: -80px;
 ul{
 display: inline;
 margin-top: -23px;
-margin-left:-77px;
+margin-left:-93px;
 
 }
 
@@ -220,7 +221,7 @@ ol{
 .logo2{
     width: 0;
     height: 0;
-    margin-left: 0px;
+margin-left: 20px;
 }
 
  .footer{
@@ -230,7 +231,9 @@ ol{
 
  .footer-container{
     width: 100%;
-    margin-left: -25px;
+margin: auto;
+margin-left: -40px;
+    
  }
  .footer-title{
 font-size: 20px;
