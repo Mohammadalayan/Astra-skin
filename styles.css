@@ -161,7 +161,7 @@ a {
     font-size: 20px;
 }
 
-@media (min-width: 200px) and (max-width: 797px) {
+@media (min-width: 200px) and (max-width: 967px) {
     .headline2 {
         font-size: 17px;
         color: #080708;
@@ -242,7 +242,7 @@ font-size: 20px;
 font-size: 17px;
  }
 }
-@media (min-width: 830px) and (max-width: 1050px) {
+@media (min-width: 950px) and (max-width: 1250px) {
     .headline2 {
         font-size: 23px;
         color: #080708;
